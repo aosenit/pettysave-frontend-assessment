@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&display=swap");
+:root {
+  --commentFontFamily: 'Berkshire Swash', cursive;
+  --mainFontFamily: ''Mukta', sans-serif';
+  --fontColor: white;
+  --BackgroundColor: black;
+  --styleColor: magenta;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--styleColor);
+  font-size: 1.2em;
+  margin-right: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: var(--fontColor);
+  background-color: var(--styleColor);
+}
+
+body {
+  font-size: 14px;
+  background-color: var(--BackgroundColor);
+  color: var(--fontColor);
+  font-family: var(--mainFontFamily);
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
