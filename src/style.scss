@@ -3,7 +3,7 @@
 
 :root{
     --commentFontFamily: 'Berkshire Swash', cursive;
-    --mainFontFamily: ''Mukta', sans-serif';
+    --mainFontFamily: 'Mukta', 'sans-serif';
     --fontColor: white;
     --BackgroundColor: black;
     --styleColor: magenta;
@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--mainFontFamily);
 }
 
 li{
@@ -21,16 +22,16 @@ li{
 
 }
 
-a{
+a .header{
     text-decoration: none;
     color: var(--styleColor);
-   font-size: 1.2em;
-   margin-right: 1em;
-   padding: 0.5em ;
-   border-radius: 10px;
+    font-size: 1.2em;
+    margin-right: 1em;
+    padding: 0 0.5em ;
+    border-radius: 10px;
 }
 
-a:hover{
+a .header:hover{
     color:var(--fontColor);
     background-color: var(--styleColor);
 }

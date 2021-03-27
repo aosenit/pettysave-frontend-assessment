@@ -49,8 +49,8 @@ export default {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   height: 20em;
-   margin: 1em 1.5em;
+   height: 25em;
+   margin: 1em 1em;
    padding: 1em;
    background-color: rgb(46, 45, 45);
    border-radius: 20px;
@@ -78,20 +78,17 @@ h4{
 
 button{
   padding: 0.5em;
-  font-size: 1.1em;
+  font-size: 1em;
   border-radius: 10px;
   outline: none;
   border: none;
   background-color: magenta;
-    color:white;
+  color:white;
   
 }
 
 button:hover{
-    color: magenta;
-    background-color:white;
     transition: all linear .5s;
-  
 }
 
 @media screen and (min-width:700px){

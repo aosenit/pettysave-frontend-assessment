@@ -10,8 +10,10 @@ export default {
 
 <style>
 h2{
-  margin-top: 50%;
+  position: absolute;
   font-size: 5em;
-  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
