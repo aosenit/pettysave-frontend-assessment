@@ -2,6 +2,7 @@
   <div class="post-body">
     <h1>{{ message }}</h1>
     <div  class="post">
+       <h4>POST</h4>
         <h3>{{activePost.body}}</h3>
         
         <ul>

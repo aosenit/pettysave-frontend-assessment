@@ -58,6 +58,13 @@ export default {
 
 }
 
+span{
+  display: block;
+ color: #000;
+ text-align: left;
+ font-weight: bolder;
+}
+
 h1{
     font-size: 1.8em;
     text-align: center;
