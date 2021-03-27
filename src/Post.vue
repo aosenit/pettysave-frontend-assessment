@@ -122,7 +122,7 @@ export default {
             .post{
                 width: 60%;
                 margin: 1em auto;
-                max-height: 100vh;
+                min-height: 80vh;
             }
 
              h4{
